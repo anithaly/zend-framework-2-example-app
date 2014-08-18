@@ -9,6 +9,12 @@
     "homepage": "http://framework.zend.com/",
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zendframework": "2.3.*"
+        "zendframework/zendframework": "2.3.*",
+        "doctrine/doctrine-module": "0.*",
+        "doctrine/doctrine-orm-module": "0.*",
+        "doctrine/migrations": "1.0.*@dev",
+        "symfony/console": "2.6.*@dev",
+        "enlitepro/zf2-scaffold": "~1.0.0",
+        "zendframework/zend-developer-tools": "dev-master"
     }
 }
