@@ -11,6 +11,8 @@ composer.phar
 
 vendor/
 
+config/autoload/doctrine.local.php.dist
+
 # Local configs
 config/autoload/*.local.php
 
