@@ -1,0 +1,7 @@
+#http://docs.doctrine-project.org/projects/doctrine-migrations/en/latest/reference/introduction.html#configuration
+
+#file not used
+name: Doctrine Sandbox Migrations
+migrations_namespace: DoctrineMigrations
+table_name: doctrine_migration_versions
+migrations_directory: /migrations/DoctrineMigrations

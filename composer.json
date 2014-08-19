@@ -15,6 +15,7 @@
         "doctrine/migrations": "1.0.*@dev",
         "symfony/console": "2.6.*@dev",
         "enlitepro/zf2-scaffold": "~1.0.0",
-        "zendframework/zend-developer-tools": "dev-master"
+        "zendframework/zend-developer-tools": "dev-master",
+        "symfony/yaml": "2.6.*@dev"
     }
 }

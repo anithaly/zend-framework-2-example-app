@@ -8,22 +8,6 @@ return array(
         'Application',
     ),
 
-    'doctrine' => array(
-      'driver' => array(
-        'application_entities' => array(
-          'class' =>'Doctrine\ORM\Mapping\Driver\AnnotationDriver',
-          'cache' => 'array',
-          'paths' => array(__DIR__ . '/../src/Application/Entity')
-        ),
-
-        'orm_default' => array(
-          'drivers' => array(
-            'Application\Entity' => 'application_entities'
-          )
-        )
-      )
-    ),
-
     // These are various options for the listeners attached to the ModuleManager
     'module_listener_options' => array(
         // This should be an array of paths in which modules reside.

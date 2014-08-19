@@ -14,15 +14,22 @@ return array(
                 'class' =>'Doctrine\ORM\Mapping\Driver\AnnotationDriver',
                 'cache' => 'array',
                 'paths' => array(__DIR__ . '/../src/Application/Entity')
-                ),
-
-                'orm_default' => array(
+            ),
+            'orm_default' => array(
                 'drivers' => array(
                   'Application\Entity' => 'application_entities'
                 )
             )
-        )
+        ),
+        'migrations_configuration' => array(
+            'orm_default' => array(
+                'directory' => 'migrations/DoctrineMigrations',
+                'namespace' => 'DoctrineMigrations\Migrations',
+                'table' => 'migrations',
+            ),
+        ),
     ),
+
     'router' => array(
         'routes' => array(
             'home' => array(
